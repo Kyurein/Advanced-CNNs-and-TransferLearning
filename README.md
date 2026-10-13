@@ -84,8 +84,8 @@ Model terbaik untuk *failure analysis* dipilih berdasarkan **validation accuracy
 
 ### Lokal
 ```bash
-git clone <URL-repositori>
-cd <nama-repositori>
+git clone https://github.com/Kyurein/Advanced-CNNs-and-TransferLearning.git
+cd Advanced-CNNs-and-TransferLearning
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt jupyter
 jupyter nbconvert --to notebook --execute TransferLearning.ipynb --output executed.ipynb
