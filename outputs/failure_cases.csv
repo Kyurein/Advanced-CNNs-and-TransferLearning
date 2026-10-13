@@ -1,0 +1,9 @@
+file,ground_truth,prediction,confidence,prob_ground_truth
+Bengal_143.jpg,Bengal,Abyssinian,0.8782,0.1127
+Abyssinian_221.jpg,Abyssinian,Bengal,0.7612,0.1689
+pug_6.jpg,Pug,Boxer,0.755,0.2151
+beagle_198.jpg,Beagle,Boxer,0.6461,0.3208
+Persian_25.jpg,Persian,Abyssinian,0.627,0.247
+Bengal_84.jpg,Bengal,Abyssinian,0.6163,0.3513
+boxer_18.jpg,Boxer,Beagle,0.5824,0.394
+Persian_77.jpg,Persian,Abyssinian,0.4037,0.3827

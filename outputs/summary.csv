@@ -1,0 +1,5 @@
+run,condition,augmentation,trainable_params,total_params,lr_per_group,weight_decay,batch_size,epochs_run,best_epoch,train_time_s,best_val_loss,val_acc,train_acc_at_best,gap_train_minus_val,test_acc,test_macro_f1
+B1_scratch,B1,True,11181642,11181642,"{""all"": 0.001}",0.01,32,7,3,52.8,1.7862,0.3502,0.3319,-0.0183,0.3255,0.3204
+B2_feature_extraction,B2,True,5130,11181642,"{""fc"": 0.001}",0.01,32,17,13,119.5,0.0978,0.9764,0.987,0.0106,0.9698,0.9703
+B3_finetune_layer4,B3,True,8398858,11181642,"{""layer4"": 0.0001, ""fc"": 0.001}",0.01,32,6,2,43.5,0.1046,0.9697,0.9769,0.0072,0.9664,0.9667
+B4_B3_no_aug,B3,False,8398858,11181642,"{""layer4"": 0.0001, ""fc"": 0.001}",0.01,32,8,4,23.1,0.095,0.9731,0.9993,0.0262,0.9765,0.9767
